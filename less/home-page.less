@@ -23,7 +23,8 @@
     width: 100% !important;
 
     @media @phone {
-      display: none;
+      display: block;
+      padding-bottom: 2%;
     }
   }
 
@@ -94,6 +95,12 @@
     padding: 50px 60px;
     display: flex;
     justify-content: space-between;
+
+    @media @phone {
+      display: block;
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
     .walk-text {
