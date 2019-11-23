@@ -1,4 +1,4 @@
-# Sprint Challenge: Advanced CSS - Space Walkers Web Page
+     # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The important difference to note between the two different methods is that adaptive screen size is a lot less flexible than responsive screen design. Adaptive needs you to design for each screen size individually.
+ 
+Responsive websites respond to the size of the browser at any given point. No matter what the browser width may be, the site adjusts its layout (and perhaps functionality) in a way that is optimized to the screen. Is the browser 300px wide or 30000px wide? It doesn't matter because the layout will respond accordingly. Well, at least if it's done correctly!
+Adaptive websites adapt to the width of the browser at a specific points. In other words, the website is only concerned about the browser being a specific width, at which point it adapts the layout.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means all of the designs are built for mobile and create breakpoints for larger size screens.
+Desktop first means all of the designs are built for desktop and create breakpoints for smaller screens.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+ 62.5% of 16px (typical default browser font-size) is 10px. That would still make 1.6rem = 16px. This now means that if the user’s default browser font-size is changed to, for example, 20px, 1.6rem would now equal 20px. 
+	*** To work in fluid units, font-size in html must be set to 62.5%
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessors are supercharged version of CSS. It will take the syntax in CSS and expand it by refactoring. That way, codes are better executed or organized. It’s exactly the same code, but done in a cleaner, DRY way.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love how we are able to organize and make our code modular by using imports. Media queries give me the most trouble.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
