@@ -248,7 +248,7 @@ footer {
   }
 }
 .home .main-img {
-  width: 100%;
+  width: 96%;
 }
 @media (max-width: 500px) {
   .home .main-img {
